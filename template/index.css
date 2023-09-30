@@ -1,0 +1,150 @@
+@font-face {
+  font-family: DM Sans;
+  src: url(DMSans-Regular.ttf);
+}
+@font-face {
+  font-family: Larken;
+  font-weight: 400;
+  src: url(Larken-Regular.otf);
+}
+@font-face {
+  font-family: Larken;
+  font-weight: 800;
+  src: url(Larken-Bold.otf);
+}
+@page {
+  size: A4;
+  margin: 0;
+}
+
+@media print {
+  html {
+    /* width: 612px;
+    height: 792px; */
+  }
+}
+
+html {
+  color: #000;
+  font-family: DM Sans;
+  font-size: 10px;
+  line-height: 1.3;
+}
+body {
+  margin: 0;
+}
+.bank-certificate {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.top-bar .bar {
+  background: #2d2d3a;
+  height: 85px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+.bar-text {
+  color: #ffffff;
+  text-align: right;
+
+  font-size: 8px;
+}
+.bottom-bar {
+  margin-top: auto;
+}
+.bottom-bar-logo {
+  margin-left: 24px;
+}
+.bottom-bar-line {
+  background: #00f5fa;
+  height: 24px;
+}
+
+.bottom-bar-text {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 24px;
+}
+.bottom-bar-text-left {
+  width: 198px;
+  font-size: 9px;
+}
+
+.bottom-bar-text-right {
+  width: 215px;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 7px;
+}
+.bank-certificate-content {
+  min-height: 200px;
+  margin-top: -10px;
+  padding: 20px;
+  z-index: 1;
+  border-radius: 10px 10px 0 0;
+  background: #fff;
+}
+.bank-certification-content-title {
+  color: #000;
+  text-align: center;
+  font-family: Larken;
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+.bank-certification-text {
+  color: rgba(0, 0, 0, 0.8);
+}
+.bank-certification-text-bold {
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.bank-certification-auth-signatory {
+  width: 100%;
+  height: 51px;
+}
+
+.bank-certification-text-signature {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 20px;
+}
+
+.line {
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.8);
+  border-width: 1px 0 0 0;
+  width: 180px;
+  height: 0px;
+}
+
+table {
+  width: 473px;
+  margin: 24px auto;
+  border-collapse: collapse;
+}
+th,
+td {
+  text-align: left;
+  padding: 5px;
+}
+th:last-child,
+td:last-child {
+  text-align: right;
+}
+
+th {
+  font-size: 8px;
+  font-family: Larken;
+  font-weight: 800;
+  border-top: 2px solid rgba(0, 0, 0, 0.5);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+}
+td {
+  font-size: 8px;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.8);
+}
