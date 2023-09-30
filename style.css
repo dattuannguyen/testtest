@@ -1,3 +1,10 @@
+@media print {
+    body {
+        width: 100%; /* Thiết lập độ rộng trang in */
+        margin: 0; /* Loại bỏ lề khi in */
+    }
+}
+
 body, html{
     margin:0;
     padding:0;
@@ -10,6 +17,7 @@ body, html{
 
 .margin-all{
     margin: 10px 60px 10px 50px;
+
 }
 /*Header */
 .header{
@@ -18,11 +26,13 @@ body, html{
     align-items: center;
     background-color: #2D2D39;
     height : 100px;
+    /*border-radius: 25px 25px 0 0;*/
+
 }
 .logo{
     width: 250px;
     height: auto;
-    margin:20px 0px 20px 30px;
+    margin:20px 0 20px 30px;
 }
 .line-break{
     white-space: pre-line;
