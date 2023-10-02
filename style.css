@@ -10,12 +10,28 @@
     margin: 0;
 }
 
+@font-face {
+    font-family:  DM Sans;
+    src: url("DMSans-Regular.ttf");
+}
+@font-face {
+    font-family: Larken;
+    font-weight: 400;
+    src: url(Larken-Regular.otf);
+}
+@font-face {
+    font-family: Larken;
+    font-weight: 800;
+    src: url(Larken-Bold.otf);
+}
+
 body, html{
     margin:0;
     padding:0;
     /*background:white;*/
-    font:normal 12px verdana;
-    font-family: 'DM Sans', sans-serif;
+    /*font:normal 12px verdana;*/
+    font-family: DM Sans;
+    font-size: 12px;
     width : 100%;
 
 }
@@ -58,6 +74,8 @@ body, html{
 
 h1{
     text-align: center;
+    font-family: Larken;
+    font-size: 25px;
 }
 
 .container2{
@@ -81,6 +99,7 @@ h1{
 }
 .font-size{
     font-size: 18px;
+    font-family: Larken;
 }
 table{
     width: 100%; /* Bảng chiếm toàn bộ chiều rộng của phần tử cha */
